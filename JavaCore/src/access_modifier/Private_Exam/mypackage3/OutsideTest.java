@@ -9,9 +9,5 @@ public class OutsideTest {
         Private obj = new Private();
         // System.out.println(obj.name); // เข้าถึงไม่ได้
         // System.out.println(obj.age); // เข้าถึงไมไ่ด้
-
-        // ----- SubClass ------
-        SubClassTest subClassTest = new SubClassTest();
-        subClassTest.accessPrivateClass(); // เข้าถึงได้ แต่ ไม่แสดงค่าอะไรเลย
     }
 }
